@@ -1,9 +1,5 @@
 import sys
 
-#
-# After Python 3.10, collections.Iterable was removed, and is now available as
-# collections.abc.Iterable.
-#
 if sys.version_info.major >= 3 and sys.version_info.minor > 10:
     from collections.abc import Iterable
 else:
